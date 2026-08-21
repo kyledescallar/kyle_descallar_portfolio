@@ -2,8 +2,8 @@ import type { FormEvent } from "react";
 import gmailLogo from "@/assets/images/gmail logo.webp";
 import contactLogo from "@/assets/images/contact_logo.jpg";
 import SectionTitle from "@/components/common/sectionTitle";
-import ContactCard from "../ui/contactCard";
-import Socials from "../socials";
+import ContactCard from "@/components/ui/contactCard";
+import Socials from "@/components/socials";
 
 export default function Contact() {
 
@@ -73,7 +73,6 @@ export default function Contact() {
           {/* RIGHT */}
           <ContactCard
             title="Send a Message"
-            dark
           >
 
             <p className="mb-4 text-[9px]">
